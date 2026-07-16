@@ -141,8 +141,6 @@ section p {
     background-size: cover;
     background-position: center;
 
-    min-height: 70vh;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
