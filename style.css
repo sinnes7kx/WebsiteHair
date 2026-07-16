@@ -347,33 +347,6 @@ input[type="radio"]:not(:checked):hover {
     transform: rotateY(180deg);
 }
 
-.short {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-
-.short img {
-    width: 175px;
-    height: 175px;
-    max-width: 175px;
-    max-height: 175px;
-}
-
-.short-text {
-    flex: 1;
-}
-
-.short-text h2 {
-    text-align: center;
-    margin-top: 30px;
-}
-
-.short-text p {
-    text-align: left;
-    margin-bottom: 50px;
-}
-
 /* Om Oss */
 
 .about {
