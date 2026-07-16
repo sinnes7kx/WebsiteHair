@@ -356,6 +356,8 @@ input[type="radio"]:not(:checked):hover {
 .short img {
     width: 175px;
     height: 175px;
+    max-width: 175px;
+    max-height: 175px;
 }
 
 .short-text {
