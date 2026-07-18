@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sinnes7kx.github.io/WebsiteHair/index.html
