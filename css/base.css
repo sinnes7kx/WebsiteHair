@@ -1,0 +1,57 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+body {
+    font-family:Arial,sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.5;
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+a {
+    color:var(--link);
+    text-decoration:none;
+}
+
+section {
+    background:var(--bg-section);
+    width:min(90%,1200px);
+    margin:30px auto;
+    padding:30px;
+    border-radius:var(--radius);
+    box-shadow:var(--glow);
+    text-align:center;
+}
+
+section h2 {
+    margin-bottom:15px;
+}
+
+section img {
+    width:100%;
+    border-radius:var(--radius);
+    margin:25px auto;
+    opacity:.85;
+}
+
+/* For keyboard only users to highlight selected element using Tab */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 4px;
+}

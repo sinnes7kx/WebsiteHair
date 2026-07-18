@@ -1,0 +1,97 @@
+/* Services, Cards */
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    padding: 20px auto auto auto;
+    min-height: 400px;
+
+    font-style: oblique;
+}
+
+.card {
+    display: flex;
+    width: 250px;
+    height: 400px;
+    gap: 20px;
+    align-items: flex-start;
+    perspective: 1000px;
+}
+
+.card img {
+    width: 150px;
+    align-self: center;
+}
+
+.card-text h2 {
+    flex: 1;
+    line-height: 2.8;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    transform-style: preserve-3d;
+    transition: 1.5s;
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    inset: 0;
+
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
+
+.card-front img,
+.card-back img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Småkort */
+
+.values {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    padding: 70px;
+}
+
+.value-card {
+    width: 280px;
+    padding: 30px;
+
+    background: var(--bg-card);
+    border-radius: var(--radius-lg);
+
+    text-align: center;
+
+    transition: var(--transition);
+    box-shadow: var(--shadow);
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--glow-dark);
+}

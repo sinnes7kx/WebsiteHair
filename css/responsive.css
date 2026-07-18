@@ -1,0 +1,110 @@
+/* Responsive media / '768px and lower' resolution */
+
+@media (max-width: 768px) {
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    nav {
+        box-shadow: var(--glow);
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .service input[type="radio"] {
+        margin-bottom: 5px;
+        margin-left: 0;
+    }
+
+    .name,
+    .time,
+    .price {
+        align-self: center;
+    }
+
+    .card {
+        width: 300px;
+        height: 300px;
+
+        flex-direction: column;
+        align-items: flex-start;
+
+        margin-top: -50px;
+        margin-bottom: 125px;
+    }
+
+    .card-text h2 {
+        margin-top: 5px;
+    }
+
+    .about {
+        padding: 40px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section {
+        width: min(90%, 900px);
+        text-align: center;
+    } 
+
+    .about-text {
+        text-align: center;
+    }
+
+    .about-image img {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .values {
+        padding: 40px 20px;
+    }
+
+    .team {
+        padding: 30px 20px;
+    }
+
+    .info-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .info-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+
+        animation-duration:0.01ms !important;
+        animation-iteration-count:1 !important;
+        transition-duration:0.01ms !important;
+        scroll-behavior:auto !important;
+
+    }
+
+}

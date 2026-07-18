@@ -1,0 +1,25 @@
+:root {
+    --bg: #1d2022;
+    --bg-dark: #111;
+    --bg-section: #181818;
+    --bg-card: #2e2e2e;
+
+    --text: #ffffff;
+    --text-muted: #adadad;
+    --link: lightblue;
+
+    --border: #444;
+    --input-bg: #eeeeee;
+
+    --shadow: rgba(255,255,255,.2);
+
+    --glow: inset 0 0 10px white;
+    --glow-dark: inset 0 0 10px rgb(94 94 94);
+    --glow20: inset 0 0 20px white;
+    --glow30: inset 0 0 30px white;
+
+    --radius: 10px;
+    --radius-lg: 15px;
+
+    --transition: .66s ease;
+}
