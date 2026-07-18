@@ -89,14 +89,16 @@ nav a {
     display: block;
     color: var(--text);
     padding: 12px 20px;
-    border-radius: var(--radius);
     font-weight: bold;
+    border-radius: var(--radius);
+
     transition: var(--transition);
 }
 
 nav a:hover,
 nav a.active {
     box-shadow: var(--glow30);
+
     transform: scale(.95);
 }
 
