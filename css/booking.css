@@ -100,6 +100,8 @@ input[type="radio"] {
     box-shadow: var(--shadow);
 }
 
+/* True/False check to see if the radio button is checked on hover. If it's not checked, it will display a different glow on hover. */
+
 input[type="radio"]:checked {
     box-shadow: var(--glow20)
 }
