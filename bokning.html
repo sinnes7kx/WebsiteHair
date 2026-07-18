@@ -3,26 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bokning</title>
-    <link rel="stylesheet" href="style.css">
+
+        <!-- -------------------- SEO Improvements ---------------------->
+
+    <title>Book Hair Appointment | Hair Salon Stockholm</title>
+
+    <meta name="description" content="Professional hair salon offering haircuts, styling, coloring and personalized hair treatments. Book your appointment today.">
+
+        <meta property="og:title"
+        content="Hair Salon Stockholm | Professional Styling">
+
+        <meta property="og:description"
+        content="Professional haircuts, coloring and styling. Book your appointment today.">
+
+        <meta property="og:type"
+        content="website">
+
+        <meta property="og:image"
+        content="images/logo.png">
+
+        <meta property="og:url"
+        content="https://sinnes7kx.github.io/WebsiteHair/index.html">
+
+        <!-------------------------------------------------------------->
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/booking.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
 </head>
 <body>
 
 <!-- Header med logo -->
 
     <header>
-        <img src="images/logo.png" alt="Logotyp" class="logo">
+        <img src="images/logo.png" alt="logo hair salon scissors" class="logo">
     </header>
 
 <!-- Navigeringsmeny -->
 
-    <nav>
+    <nav aria-label="Main Navigation">
         
         <ul>
             <li><a href="index.html">Hem</a></li>
             <li><a href="omoss.html">Om Oss</a></li>
             <li><a href="contact.html">Kontakta Oss</a></li>
-            <li><a href="bokning.html" class="active">Boka Tid</a></li>
+            <li><a href="bokning.html" class="active" aria-current="page">Boka Tid</a></li>
             <li><a href="aktuellt.html">Hitta Hit</a></li>
         </ul>
         
@@ -35,9 +69,7 @@
     <h1>Välj behandling</h1><br>
 
     <form>
-
-        
-
+       
         <label class="service">
             <input type="radio" name="service" value="damklippning">
             <span class="name">Damklippning</span>
@@ -101,8 +133,7 @@
             <span class="price">250 kr</span>
         </label>
 
-<!-- Submit Button -->
-<br>
+        <br>
         <button type="submit">Nästa</button>
 
     </form>
