@@ -70,6 +70,15 @@ header {
     margin-bottom: -25px;
 }
 
+.icon {
+    width: 100px;
+    height: auto;
+    justify-content: center;
+    align-items: right;
+    display:inline-flex;
+    padding: 20px;
+}
+
 /* Navigation Menu */
 
 nav {
