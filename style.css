@@ -283,6 +283,9 @@ input[type="radio"]:not(:checked):hover {
     box-shadow: var(--glow);
 }
 
+.icon:hover {
+    transform: scale(1.1);
+}
 /* Info */
 
 .info-section {
