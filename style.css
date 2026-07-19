@@ -78,6 +78,7 @@ header {
     display: inline-flex;
     padding: 20px;
     margin: 10px;
+    transition: 1.25s;
 }
 
 /* Navigation Menu */
