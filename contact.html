@@ -1,77 +1,43 @@
 <!DOCTYPE html>
 <html lang="sv">
-    
-        <!-- -------------------- SEO Improvements ---------------------->
-         
-<script type="application/ld+json">
-
-{
- "@context":"https://schema.org",
- "@type":"HairSalon",
-
- "name":"Hårsalong Stockholm",
-
- "description":
- "Professional hair salon offering haircuts and styling.",
-
- "address":{
-    "@type":"PostalAddress",
-    "addressLocality":"Stockholm",
-    "addressCountry":"SE"
- },
-
- "openingHours":
- [
-    "Mo-Fr 10:00-19:00",
-    "Sa 10:00-15:00"
- ]
-
-}
-
-</script>
-    
-        <!---->
-    
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-        <!-- -------------------- SEO Improvements ---------------------->  
-    
-    <title>Contact Us | Hair Salon Stockholm</title>
-
+    <!-- SEO-förbättringar -->
+    <title>Kontakta Oss | Hårsalong Stockholm</title>
     <meta name="description" content="Professional hair salon offering haircuts, styling, coloring and personalized hair treatments. Book your appointment today.">
+    <meta property="og:title" content="Hair Salon Stockholm | Professional Styling">
+    <meta property="og:description" content="Professional haircuts, coloring and styling. Book your appointment today.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/logo.png">
+    <meta property="og:url" content="https://sinnes7kx.github.io/WebsiteHair/contact.html">
 
-        <meta property="og:title"
-        content="Hair Salon Stockholm | Professional Styling">
+    <!-- Liten ikon som syns på fliken -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
 
-        <meta property="og:description"
-        content="Professional haircuts, coloring and styling. Book your appointment today.">
+    <link rel="stylesheet" href="style.css">
 
-        <meta property="og:type"
-        content="website">
-
-        <meta property="og:image"
-        content="images/logo.png">
-
-        <meta property="og:url"
-        content="https://sinnes7kx.github.io/WebsiteHair/index.html">
-    
- <!--- Liten ikon som syns på fliken --->
-        <link
-        rel="icon"
-        type="images/s1.png"
-        href="images/favicon.png"> 
-
-        <!------------------------------ CSS -------------------------------->
-
-    <link rel="stylesheet" href="style.css"
-    
-        <!-------------------------------------------------------------------------->
-
+    <!-- Strukturerad data för sökmotorer -->
+    <script type="application/ld+json">
+    {
+     "@context":"https://schema.org",
+     "@type":"HairSalon",
+     "name":"Hårsalong Stockholm",
+     "description":"Professional hair salon offering haircuts and styling.",
+     "address":{
+        "@type":"PostalAddress",
+        "addressLocality":"Stockholm",
+        "addressCountry":"SE"
+     },
+     "openingHours":
+     [
+        "Mo-Fr 10:00-19:00",
+        "Sa 10:00-15:00"
+     ]
+    }
+    </script>
 </head>
-    
 <body>
 
 <!-- Header med logo -->
@@ -82,18 +48,15 @@
 
 <!-- Navigeringsmeny -->
 
-<nav aria-label="Main Navigation">
-        
+    <nav aria-label="Main Navigation">
         <ul>
             <li><a href="index.html">Hem</a></li>
-            <li><a href="omoss.html">Om Oss</a></li>                                               <!--- Class=active för att menyknappen ska hållas "nertryckt" och fortfarande lysa som vid hover --->
-            <li><a href="contact.html" class="active" aria-current="page">Kontakta Oss</a></li>    <!--- "Aria-label" för 'screen readers' (verktyg för synskadade som berättar var på hemsidan du befinner dig) --->
+            <li><a href="omoss.html">Om Oss</a></li>
+            <li><a href="contact.html" class="active" aria-current="page">Kontakta Oss</a></li>
             <li><a href="bokning.html">Boka Tid</a></li>
             <li><a href="aktuellt.html">Aktuellt</a></li>
             <li><a href="hittahit.html">Hitta Hit</a></li>
         </ul>
-        </ul>
-        
     </nav>
 
 <!-- Kontaktformulär -->
@@ -120,7 +83,7 @@
     </section>
 
 <!-- Footer -->
- 
+
     <footer>
         <p>&copy; 2026 Min Hemsida. Alla rättigheter förbehållna.</p>
     </footer>

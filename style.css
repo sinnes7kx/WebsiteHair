@@ -439,6 +439,14 @@ textarea:hover::placeholder {
     box-shadow: var(--glow-dark);
 }
 
+.value-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: var(--radius);
+    margin-bottom: 15px;
+}
+
 .wide-card {
     width: 600px;
     max-width: 90%;
